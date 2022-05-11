@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nivel Facil</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;700&display=swap" rel="stylesheet"/>  
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="/css/style.css">
+  
+  <!-- Hoja de CSS Media Queries -->
+  <link rel="stylesheet" href="/css/media-queries.css" />
+
+</head>
+
+<body>
+  <div class="home">
+    <button id="botoninic" class="inicio">&#127968</button>
+  </div>
+  
+  <!-- Dificultad Fácil -->  
+  <div class="nivelfacil">
+    <div class="smallcontainer">
+      <h1>Operaciones Fáciles</h1>
+      <h3>Limite de Tiempo: 120 Segundos</h3>
+      <div class="fila2">      
+        <div class="columna2">
+          <div class="operadores">
+           
+            <p id="num1"></p>
+            <p>+/-</p>
+            <p id="num2"></p>
+          </div>
+          
+          <tr>
+            <td><button onclick="niv1()">Suma</button></td>
+            <td><button onclick="niv12()">Resta</button></td>
+          </tr>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>            
+  <br>
+  <br>
+  <br>
+  <div class="res">
+    <h1>Resultados</h1>
+  </div>
+  
+  <div class="informacion">
+    <div class="resultado">
+      <h1 id="correct"></h1>
+    </div>
+    <div class="veccorrec">
+      <h1 id="vecesc"></h1>
+    </div>
+    
+    <div class="intentos">
+      <p id="intent"></p>
+    </div>
+    
+  </div>
+  <p id="incorrecto"></p>
+  
+  <script src="/src/main.js"></script>
+</body>
+
+</html>
